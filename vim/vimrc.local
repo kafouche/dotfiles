@@ -1,0 +1,35 @@
+filetype plugin on
+filetype indent on
+
+" General settings
+set backspace=eol,start,indent
+set encoding=utf-8
+set mouse=a
+set t_Co=16
+
+" Temporary files settings
+set nobackup
+set noswapfile
+set nowb
+
+" Display settings
+set background=dark
+set list
+set number
+set ruler
+syntax on
+
+" Search settings
+set ignorecase
+set smartcase
+
+" Identation settings
+set autoindent
+set smartindent
+set wrap
+
+" Tabulation settings
+set expandtab
+set smarttab
+set shiftwidth=4
+set tabstop=4
