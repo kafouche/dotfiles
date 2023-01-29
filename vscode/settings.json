@@ -1,0 +1,14 @@
+{
+    "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.2,
+    "editor.rulers": [
+        72,
+        {
+            "color": "rgb(215, 0, 75)",
+            "column": 80,
+        }
+    ]
+    "workbench.colorTheme": "BlueLover"
+}
