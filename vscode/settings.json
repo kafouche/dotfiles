@@ -7,8 +7,11 @@
         72,
         {
             "color": "rgb(215, 0, 75)",
-            "column": 80,
+            "column": 80
         }
-    ]
-    "workbench.colorTheme": "Abyss"
+    ],
+    "workbench.colorTheme": "Iceberg Contrast (rainglow)",
+    "[python]": {
+        "editor.formatOnType": true
+    }
 }

@@ -10,7 +10,7 @@
     "font_size": 10.5,
     "ignored_packages":
     [
-        "Vintage",
+        "Vintage"
     ],
     // Columns in which to display vertical rulers. You can also pair the column
     // with a ruler style (See "ruler_style"), eg: [[80, "solid"]]
