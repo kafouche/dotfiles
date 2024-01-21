@@ -1,22 +1,20 @@
-// Settings in here override those in "Default/Preferences.sublime-settings",
-// and are overridden in turn by syntax-specific settings.
 {
-    "color_scheme": "Packages/Theme - Darkmatter/Darkmatter.tmTheme",
-    // Note that the font_face and font_size are overridden in the platform
-    // specific settings file, for example, "Preferences (Linux).sublime-settings".
-    // Because of this, setting them here will have no effect: you must set them
-    // in your User File Preferences.
-    "font_face": "JetBrains Mono",
-    "font_size": 10.5,
+    "default_encoding": "UTF-8",
+    "default_line_ending": "system",
+    "draw_white_space": ["selection"],
+    "rulers": [
+        72,
+        [80, "solid", 2]
+    ],
+    "show_encoding": true,
+    "show_line_endings": true,
+    "show_indentation": true,
+    "show_syntax": true,
+    "tab_size": 4,
+    "theme": "Adaptive.sublime-theme",
+    "translate_tabs_to_spaces": true,
     "ignored_packages":
     [
-        "Vintage"
+		"Vintage",
     ],
-    // Columns in which to display vertical rulers. You can also pair the column
-    // with a ruler style (See "ruler_style"), eg: [[80, "solid"]]
-    "rulers": [[72, "dotted"], [80, "solid"]],
-    // The number of spaces a tab is considered equal to
-    "tab_size": 4,
-    // Set to true to insert spaces when tab is pressed
-    "translate_tabs_to_spaces": true,
 }
